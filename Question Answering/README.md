@@ -64,7 +64,6 @@ The dataset can be found here: <a href= "https://huggingface.co/datasets/squad">
         <li><code>Extract the answer span:</code> The model's output consists of logits (probabilities) for each token in the context paragraph. The tokens with the highest start and end logits are to the beginning and end of the answer span within the context.
         <li><code>Generating Answer:</code> By decoding the answer span tokens, we generate the final answer string. This answer is then returned as the output of the system.
         <li><code>Evaluate the model:</code> using the first 100 rows of the squad dataset to evaluate the performance of the QAS.
-        <li><code>Testing:</code> By using pytest with multiple test cases.
     </ul>
 </ul>
 
